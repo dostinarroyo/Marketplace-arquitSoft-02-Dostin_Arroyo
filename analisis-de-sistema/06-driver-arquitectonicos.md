@@ -13,6 +13,7 @@ Integrar los elementos identificados anteriormente y determinar cuál de ellos i
 | DA04 | El sistema debe integrarse con una pasarela de pago externa mediante una API. | RC04 - Pasarela de pago | Condiciona la forma de comunicación e integración con servicios externos. |
 | DA05 | El sistema debe integrarse con servicios externos para envío y facturación. | RC05 - Servicio de envío / Facturación | Afecta la interoperabilidad, tolerancia a fallos y diseño de adaptadores. |
 | DA06 | El sistema debe permitir crecimiento del catálogo de productos y vendedores. | HU02, HU05 | Influye en la estructura de datos, capacidad de almacenamiento y modularidad del sistema. |
+| DA07 | El sistema debe permitir modificar funcionalidades sin afectar innecesariamente otros módulos. |AC05-Mantenibilidad | Influye en la separación de responsabilidades , modularidad y dependencias internas. |
 
 ## Observación
 Los drivers arquitectónicos representan los factores más relevantes para definir los patrones y decisiones de diseño del marketplace.
